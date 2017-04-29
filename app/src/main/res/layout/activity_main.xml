@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="500sp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/cat_face"
+            android:contentDescription="@string/CatFaceDescription"/>
+
+        <TextView
+            style="@style/CatHotelHead"
+            android:text="@string/CatHotelHead" />
+
+        <TextView
+            style="@style/information"
+            android:text="@string/information" />
+
+
+        <Button
+            android:id="@+id/button"
+            style=""
+            android:layout_width="300sp"
+            android:layout_height="40sp"
+            android:layout_gravity="center"
+            android:onClick="startReservation"
+            android:text="@string/reservation" />
+
+        <LinearLayout style="@style/InformationLayoutStyle">
+
+            <ImageView
+                style="@style/InformationStyle"
+                android:src="@drawable/web"
+                android:contentDescription="@string/WebIcon" />
+
+            <TextView
+                style="@style/ContactStyle"
+                android:text="@string/web" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/InformationLayoutStyle">
+
+            <ImageView
+                style="@style/InformationStyle"
+                android:src="@drawable/mail"
+                android:contentDescription="@string/MailIcon"/>
+
+            <TextView
+                style="@style/ContactStyle"
+                android:text="@string/mail" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/InformationLayoutStyle">
+
+            <ImageView
+                style="@style/InformationStyle"
+                android:src="@drawable/phone"
+                android:contentDescription="@string/PhoneIcon"/>
+
+            <TextView
+                style="@style/ContactStyle"
+                android:text="@string/phone" />
+
+        </LinearLayout>
+
+
+        <LinearLayout style="@style/InformationLayoutStyle">
+
+            <ImageView
+                style="@style/InformationStyle"
+                android:src="@drawable/open"
+                android:contentDescription="@string/GuaranteeIcon"/>
+
+            <TextView
+                style="@style/ContactStyle"
+                android:text="@string/guarantee" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

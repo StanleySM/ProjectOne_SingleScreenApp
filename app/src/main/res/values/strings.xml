@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Cat Hotel</string>
+    <string name="CatHotelHead">Best hotel for your fluffy cat</string>
+    <string name="information">Are you going on vacation and need a reliable pet sitter? In case you are short on time taking care of your beloved pet, yet want the best care for them, take a look at the services.</string>
+    <string name="web">www.cat-hotel.dot</string>
+    <string name="mail">info@cat-hotel.dot</string>
+    <string name="phone">+420123456798</string>
+    <string name="guarantee">24/7/365</string>
+    <string name="reservation">Online Reservation</string>
+    <string name="CatFaceDescription">Cat face image</string>
+    <string name="WebIcon">Its web icon, link to your webpage</string>
+    <string name="MailIcon">Its mail icon, send us your question</string>
+    <string name="PhoneIcon">Its phone icon, call us</string>
+    <string name="GuaranteeIcon">Approved company</string>
+
+</resources>

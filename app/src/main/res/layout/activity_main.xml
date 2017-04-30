@@ -11,7 +11,7 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="500sp"
+            android:layout_width="500dp"
             android:layout_height="200dp"
             android:layout_gravity="center"
             android:scaleType="centerCrop"

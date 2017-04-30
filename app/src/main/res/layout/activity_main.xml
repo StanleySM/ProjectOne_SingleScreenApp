@@ -29,9 +29,8 @@
 
         <Button
             android:id="@+id/button"
-            style=""
-            android:layout_width="300sp"
-            android:layout_height="40sp"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
             android:layout_gravity="center"
             android:onClick="startReservation"
             android:text="@string/reservation" />
@@ -58,7 +57,8 @@
 
             <TextView
                 style="@style/ContactStyle"
-                android:text="@string/mail" />
+                android:text="@string/mail"
+                android:autoLink="email"/>
 
         </LinearLayout>
 
@@ -71,7 +71,8 @@
 
             <TextView
                 style="@style/ContactStyle"
-                android:text="@string/phone" />
+                android:text="@string/phone"
+                android:autoLink="phone"/>
 
         </LinearLayout>
 
